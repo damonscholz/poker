@@ -11,5 +11,5 @@ if (boolDeal == 'y'){
     let deal = [{}]
     deal = shufDeck.slice(0,5)
 
-    console.log(deal.Value)
+    console.log(deal)
 }
