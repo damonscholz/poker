@@ -85,6 +85,8 @@ if (boolDeal == 'y' || boolDeal == 'yes' || boolshuf == 'n' || boolshuf == 'no')
                             }else
                                 if(one == true){
                                     console.log('One Pair!')
+                                }else{
+                                    console.log('High Card!')
                                 }
     
     console.log("Your Hand: " + displayCards.join(''))
