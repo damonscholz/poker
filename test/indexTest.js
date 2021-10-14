@@ -21,7 +21,7 @@ describe('fullHouse', function(){
     })
 })
 describe('flush', function(){
-    it('Function should return true, validating that all suits of the cards are queal', function(){
+    it('Function should return true, validating that all suits of the cards are equal', function(){
         let result = flush(['♥','♥','♥','♥','♥'])
         assert.equal(result,true)
     })
