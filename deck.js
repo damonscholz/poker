@@ -1,8 +1,8 @@
 export function getDeck()
 {
-	var suits = ["♠", "♦", "♣", "♥"];
-	var values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
-	var deck = [];
+	let suits = ["♠", "♦", "♣", "♥"];
+	let values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+	let deck = [];
 
 	for(var i = 0; i < suits.length; i++)
 	{
@@ -16,8 +16,9 @@ export function getDeck()
 	return deck;
 }
 
+//Shuffle deck by sorting the objects in a random fashion
 export function shuffle(deck){
-	var sufDeck = deck.sort( () => Math.random() - 0.5)
+	let sufDeck = deck.sort( () => Math.random() - 0.5)
 	return sufDeck
 }
 

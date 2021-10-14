@@ -1,5 +1,4 @@
 import { assert } from 'chai';
-// const hand = require('../hand.js')
 import { fourOfAKind , straightFlush , fullHouse , flush , straight , threeOfAKind , twoPair , onePair} from '../hand.js'
 
 
