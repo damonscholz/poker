@@ -1,2 +1,2 @@
 echo off
-npm install && npm run test && node "F:\Interview Chalenge\poker\index.js" && pause
+npm install && npm run test && npm run start %cd% && pause
